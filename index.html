@@ -4,23 +4,14 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Ayu Cantik</title>
+		<title>Beauty of Ekalestari</title>
+		<link rel="stylesheet" href="css/app.css" />
 	</head>
 	<body>
-		<script>
-			const name = prompt('Nama kamu siapa?');
-
-			if (name.toLowerCase().includes('ayu')) {
-				const isWantToBeMyGF = confirm(`${name}, kamu mau ga jadi pacar aku?`);
-
-				if (isWantToBeMyGF) {
-					alert('Awww!!! Sekarang kita jadian yak...');
-				} else {
-					alert('Yahh!!! Padahal aku udah terlanjur sayang...');
-				}
-			} else {
-				alert('Yah aku kirain kamu itu ayu tau!');
-			}
-		</script>
+		<div id="app">
+			<span id="app-typed"></span>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+		<script src="js/app.js"></script>
 	</body>
 </html>
